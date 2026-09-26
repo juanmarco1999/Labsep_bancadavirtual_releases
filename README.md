@@ -9,6 +9,9 @@ os cabos você pluga um a um, como faz na aula.
 **[⬇ Baixar a última versão](../../releases/latest)** · Windows 64 bits · não
 pede administrador · funciona sem internet
 
+**Novo na 1.17.0:** a aba **Modos**, com 71 exercícios de bancada para a prova
+dos Experimentos 3 e 4 — [o que mudou](../../releases/tag/v1.17.0).
+
 ---
 
 ## Por que isso existe
@@ -38,36 +41,57 @@ própria montagem contra ela.
 com a resolução da faixa, mostra `OL` quando estoura e tem a incerteza
 declarada. Os wattímetros ENGRO MOD.71 têm o ponteiro, o comutador e o
 multiplicador — inclusive o ponteiro parado no batente quando a potência é
-negativa, que é o que se vê antes de inverter a bobina.
+negativa, que é o que se vê antes de inverter a bobina. E a chave manda no que
+o visor mostra: em V⎓ numa bancada CA ele marca zero — a média de uma senoide
+—, e em CC a ponta trocada lê negativo.
 
 **Descobrir onde o instrumento entra.** Botão direito num cabo e o programa diz
 qual corrente passa ali com o nome da coluna da tabela: *a corrente de linha da
 fase V*, *a corrente de fase do ramo UV*, *a corrente de neutro*. Escolhida uma,
 ele abre o cabo e põe o amperímetro em série — que é a manobra que todo mundo
-erra na primeira vez. Voltímetro é pelo borne, e entra em paralelo sem desfazer
-nada.
+erra na primeira vez —, e mostra o gesto inteiro: a ponta sai do borne, o
+aparelho chega, o COM e o 10A encaixam. Voltímetro é pelo borne, e entra em
+paralelo sem desfazer nada.
 
-**Preencher as tabelas do relatório.** As **28 tabelas** dos roteiros dos
-Experimentos 1 a 4 estão no programa, com dica, conferência célula a célula,
+**Preencher as tabelas do relatório.** As **46 tabelas** dos roteiros dos
+Experimentos 1 a 7 estão no programa, com dica, conferência célula a célula,
 valor revelado quando você desistir e exportação em CSV, Markdown ou PDF.
 
 ![As tabelas guiadas, com conferência e exportação](img/tabela.png)
 
 **Saber o que está errado antes de valer nota.** «Analisar montagem» percorre o
-circuito e devolve o que fazer, por quê, e em que ordem consertar — são **61
+circuito e devolve o que fazer, por quê, e em que ordem consertar — são **62
 achados** catalogados, cada um com código. No exemplo abaixo faltava a ligação
 do amperímetro: a fase U ficou sem carga (a lâmpada apagada, à esquerda) e o
 wattímetro ficou com uma bobina só.
 
 ![A análise apontando dois erros, com o conserto e o porquê](img/analise.png)
 
+**Treinar para a prova dos Experimentos 3 e 4.** A aba *Modos* traz **71
+exercícios de bancada** em oito grupos — medições, identificação das fases,
+montagens, wattímetros, fator de potência, diagnóstico, tabelas e um simulado
+da P2. O exercício prepara a mesma bancada, diz o objetivo, e a correção vem
+quando você pede: ela olha o que cada aparelho está medindo pela ligação, e
+não pelo número do visor — um amperímetro antes da bifurcação do delta recebe
+«isso é corrente de linha». Nada da resposta aparece antes da tentativa. No
+guiado há dicas em degraus, até uma demonstração que depois se desfaz, e as
+marcas na mesa dizem o que marcam por cor, traço e ícone; no prático e no
+simulado — onze tarefas sorteadas, com a nota só na entrega —, não há dica.
+As leituras vão para um caderno com o antes e o depois, e o progresso fica
+guardado por habilidade.
+
+![Um treino da aba Modos: medir a corrente de fase de um ramo do delta, com a dica que separa os cabos de linha dos cabos dos ramos](img/modos.png)
+
 **Treinar do jeito difícil.** A aba *Prova* sorteia uma prova prática e corrige
 com nota; o *treino de diagnóstico* esconde um defeito na montagem e pede que
 você o encontre medindo — sem olhar o painel, como na bancada.
 
 **E ainda:** animação da tensão e da corrente circulando, diagrama fasorial,
-osciloscópio, ensaio para identificar as fases tirando uma lâmpada com a
-bancada ligada, montagem salva em arquivo `.juan` e relatório em PDF.
+osciloscópio, o ensaio que identifica as fases — tire uma lâmpada com a
+bancada ligada e ele diz, pelas leituras, entre quais fases ela estava (na
+bancada real, só com autorização do professor) —, uma bandeja para as
+lâmpadas que saem do bocal, montagem salva em arquivo `.juan` e relatório em
+PDF.
 
 ## O que ele cobre
 
