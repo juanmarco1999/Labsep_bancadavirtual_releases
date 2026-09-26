@@ -4,13 +4,15 @@ A bancada do **Laboratório de Sistemas de Energia Elétrica (ENE0073)** na sua
 máquina: os mesmos equipamentos, os mesmos bornes, os mesmos instrumentos — e
 os cabos você pluga um a um, como faz na aula.
 
-![A bancada montada: delta desequilibrado do Experimento 4, energizado](img/bancada.png)
+![A referência da Atividade 2 do Experimento 4 — delta desbalanceado, energizado —, com os aparelhos na ordem da figura e os cabos pelos vãos entre eles](img/bancada.png)
 
 **[⬇ Baixar a última versão](../../releases/latest)** · Windows 64 bits · não
 pede administrador · funciona sem internet
 
-**Novo na 1.17.0:** a aba **Modos**, com 71 exercícios de bancada para a prova
-dos Experimentos 3 e 4 — [o que mudou](../../releases/tag/v1.17.0).
+**Novo na 1.18.0:** a aba **Modos** refeita — 35 dos 71 modos começam com a
+bancada vazia e os instrumentos numa prateleira, as montagens dos roteiros
+viram referência para comparar com a sua, e os cabos das montagens prontas
+passam pelos corredores entre os aparelhos — [o que mudou](../../releases/tag/v1.18.0).
 
 ---
 
@@ -35,7 +37,9 @@ pode dá exatamente o que daria na mesa.
 cabo por cabo como o desenho manda — estrela, delta, equilibrado,
 desequilibrado, neutro aterrado, correção de fator de potência, os
 transformadores. Serve para estudar a figura e serve para conferir a sua
-própria montagem contra ela.
+própria montagem contra ela. Nas dos Experimentos 3 e 4, os aparelhos ficam na
+ordem de leitura da figura, sem um cobrir o outro, e os cabos passam pelos vãos
+entre eles em vez de por cima de visor, mostrador ou bocal.
 
 **Medir.** Os multímetros são ET-1110B com as faixas do manual: a leitura sai
 com a resolução da faixa, mostra `OL` quando estoura e tem a incerteza
@@ -70,17 +74,37 @@ wattímetro ficou com uma bobina só.
 **Treinar para a prova dos Experimentos 3 e 4.** A aba *Modos* traz **71
 exercícios de bancada** em oito grupos — medições, identificação das fases,
 montagens, wattímetros, fator de potência, diagnóstico, tabelas e um simulado
-da P2. O exercício prepara a mesma bancada, diz o objetivo, e a correção vem
-quando você pede: ela olha o que cada aparelho está medindo pela ligação, e
-não pelo número do visor — um amperímetro antes da bifurcação do delta recebe
-«isso é corrente de linha». Nada da resposta aparece antes da tentativa. No
-guiado há dicas em degraus, até uma demonstração que depois se desfaz, e as
-marcas na mesa dizem o que marcam por cor, traço e ícone; no prático e no
-simulado — onze tarefas sorteadas, com a nota só na entrega —, não há dica.
-As leituras vão para um caderno com o antes e o depois, e o progresso fica
-guardado por habilidade.
+da P2. Treinar é montar: 35 deles começam com a bancada limpa e desligada —
+varivolts no zero, nenhum cabo, lâmpadas na bandeja, os multímetros da mesa em
+OFF —, e os instrumentos saem de uma prateleira no quadro do treino, por
+clique ou arrastando até a mesa. Você monta a carga, instala o medidor, regula
+a fonte e liga. Os outros começam com o circuito pronto, porque ali a montagem
+é a pergunta: os ramos a identificar, o erro plantado, a leitura a
+interpretar.
 
-![Um treino da aba Modos: medir a corrente de fase de um ramo do delta, com a dica que separa os cabos de linha dos cabos dos ramos](img/modos.png)
+A correção vem quando você pede, e olha o que cada aparelho está medindo pela
+ligação, e não pelo número do visor — um amperímetro antes da bifurcação do
+delta recebe «isso é corrente de linha». Nada da resposta aparece antes da
+tentativa. No guiado há dicas em degraus, até uma demonstração que depois se
+desfaz, e as marcas na mesa dizem o que marcam por cor, traço e ícone; no
+prático e no simulado — onze tarefas sorteadas, com a nota só na entrega —,
+não há dica. As leituras vão para um caderno com o antes e o depois.
+
+O progresso é cobertura de habilidades, não probabilidade de aprovação: cada
+item do Exp 3 e do Exp 4 aparece como não iniciado, em treino, consistente ou
+dominado, ao lado de onde você está errando e do próximo treino — com o botão
+que abre exatamente a variante que falta. Depois de entregar, **Comparar com
+referência** alterna a mesa entre a sua montagem e a do roteiro; e a última
+categoria da lista abre na bancada a montagem de cada atividade (Exp 3 e Exp 4,
+Atividades 1 a 3) só com os medidores do que se quer medir.
+
+«Analisar montagem com IA», nos modos do zero e fora da prova, passa cada
+conclusão por um validador que confere contra o que a bancada mede: «está tudo
+correto» numa montagem errada não aparece. A consulta à Maritaca de verdade ainda não foi
+conferida; sem chave — o caso de quem só instala —, quem responde é a
+validação elétrica local, e a tela diz isso.
+
+![A aba Modos: o modo pelo nome, o objetivo sorteado pela semente e, à direita, o progresso por item, onde se está errando e o próximo treino](img/modos.png)
 
 **Treinar do jeito difícil.** A aba *Prova* sorteia uma prova prática e corrige
 com nota; o *treino de diagnóstico* esconde um defeito na montagem e pede que
@@ -90,7 +114,8 @@ você o encontre medindo — sem olhar o painel, como na bancada.
 osciloscópio, o ensaio que identifica as fases — tire uma lâmpada com a
 bancada ligada e ele diz, pelas leituras, entre quais fases ela estava (na
 bancada real, só com autorização do professor) —, uma bandeja para as
-lâmpadas que saem do bocal, montagem salva em arquivo `.juan` e relatório em
+lâmpadas que saem do bocal, a lâmpada que se põe rosqueando — o contato só
+fecha quando ela assenta —, montagem salva em arquivo `.juan` e relatório em
 PDF.
 
 ## O que ele cobre
@@ -127,7 +152,7 @@ Vá em **[Releases](../../releases/latest)** e pegue um dos dois:
 | `SimuladorLABSEP-X.Y.Z-portatil.zip` | roda sem instalar — descompacte e abra o `.exe` |
 
 A instalação é na pasta do usuário: **não pede administrador** e não mexe no
-sistema. São cerca de 94 MB em disco. Instalar por cima de uma versão anterior
+sistema. São cerca de 96 MB em disco. Instalar por cima de uma versão anterior
 preserva ajustes, montagens salvas e calibração.
 
 O programa **não precisa de internet** para nada do que faz — a única coisa que
