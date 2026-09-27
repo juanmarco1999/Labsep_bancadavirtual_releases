@@ -4,16 +4,17 @@ A bancada do **Laboratório de Sistemas de Energia Elétrica (ENE0073)** na sua
 máquina: os mesmos equipamentos, os mesmos bornes, os mesmos instrumentos — e
 os cabos você pluga um a um, como faz na aula.
 
-![A Figura 2 do Experimento 4 — delta desbalanceado, energizado —, com os três amperímetros de linha um embaixo do outro, como a apostila desenha, e nenhum cabo por cima de instrumento](img/bancada.png)
+![A Figura 2 do Experimento 4 — delta desbalanceado, energizado —, com os três amperímetros de linha um embaixo do outro, como a apostila desenha, os dois wattímetros no borne de 1 A e nenhum cabo por cima de instrumento](img/bancada.png)
 
 **[⬇ Baixar a última versão](../../releases/latest)** · Windows 64 bits · não
 pede administrador · funciona sem internet
 
-**Novo na 1.19.0:** as montagens prontas passam a ser as figuras das
-apostilas, nos sete experimentos — cada instrumento no borne e no lugar em que
-o desenho o põe, com as cores do desenho, e nenhum cabo por cima de visor ou
-mostrador —, e a mesa montada à mão se arruma como a figura com um botão —
-[o que mudou](../../releases/tag/v1.19.0).
+**Novo na 1.19.2:** o que cada amperímetro mede sai da ligação, e não do número
+do visor. No delta desequilibrado do Exp 4, uma lâmpada só do ramo VW carrega a
+mesma corrente que o ramo UV inteiro, e o «Analisar montagem» não confunde mais
+uma com o outro; o «Arrumar a mesa» põe cada amperímetro de linha na linha dele;
+e os wattímetros da Figura 2 ficam no borne de 1 A, como a apostila manda — o W1
+marca os mesmos 210,0 W da Tabela 4. [O que mudou](../../releases/tag/v1.19.2).
 
 ---
 
@@ -34,7 +35,9 @@ verdade. Escolha a cor do fio, a potência de cada lâmpada, a posição de cada
 chave. Nada é "aproximadamente": o que não pode ser ligado não liga, e o que
 pode dá exatamente o que daria na mesa. Passe o mouse num borne e tudo o que
 está no mesmo nó elétrico acende junto; e «Arrumar a mesa como a figura», embaixo
-do seletor, põe a sua montagem na disposição das prontas, com os mesmos cabos.
+do seletor, põe a sua montagem na disposição das prontas, com os mesmos cabos —
+cada amperímetro de linha na linha dele, mesmo que você os tenha instalado fora
+da ordem.
 
 **Ou partir da figura pronta.** São **33 montagens** dos roteiros no seletor,
 armadas cabo por cabo como o desenho manda — estrela, delta, equilibrado,
@@ -53,7 +56,10 @@ cabo passa por cima de visor, mostrador, bocal ou de outro aparelho.
 com a resolução da faixa, mostra `OL` quando estoura e tem a incerteza
 declarada. Os wattímetros ENGRO MOD.71 têm o ponteiro, o comutador e o
 multiplicador — inclusive o ponteiro parado no batente quando a potência é
-negativa, que é o que se vê antes de inverter a bobina. E a chave manda no que
+negativa, que é o que se vê antes de inverter a bobina. O borne de corrente
+importa: no de 5 A o multiplicador é 5 e a leitura anda de 12,5 em 12,5 W, e as
+montagens prontas usam o que a apostila manda, a menor escala que aguente a
+corrente da bobina. E a chave manda no que
 o visor mostra: em V⎓ numa bancada CA ele marca zero — a média de uma senoide
 —, e em CC a ponta trocada lê negativo.
 
@@ -73,7 +79,10 @@ valor revelado quando você desistir e exportação em CSV, Markdown ou PDF.
 
 **Saber o que está errado antes de valer nota.** «Analisar montagem» percorre o
 circuito e devolve o que fazer, por quê, e em que ordem consertar — são **62
-achados** catalogados, cada um com código. No exemplo abaixo faltava a ligação
+achados** catalogados, cada um com código. O que cada amperímetro mede ele diz
+pela ligação, e não pelo número: um amperímetro em série com só uma das lâmpadas
+de um ramo sai como «só parte da corrente do ramo», mesmo quando o valor bate
+com a corrente inteira de outro ramo. No exemplo abaixo faltava a ligação
 do amperímetro: a fase U ficou sem carga (a lâmpada apagada, à esquerda) e o
 wattímetro ficou com uma bobina só.
 
