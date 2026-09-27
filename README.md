@@ -4,15 +4,16 @@ A bancada do **Laboratório de Sistemas de Energia Elétrica (ENE0073)** na sua
 máquina: os mesmos equipamentos, os mesmos bornes, os mesmos instrumentos — e
 os cabos você pluga um a um, como faz na aula.
 
-![A referência da Atividade 2 do Experimento 4 — delta desbalanceado, energizado —, com os aparelhos na ordem da figura e os cabos pelos vãos entre eles](img/bancada.png)
+![A Figura 2 do Experimento 4 — delta desbalanceado, energizado —, com os três amperímetros de linha um embaixo do outro, como a apostila desenha, e nenhum cabo por cima de instrumento](img/bancada.png)
 
 **[⬇ Baixar a última versão](../../releases/latest)** · Windows 64 bits · não
 pede administrador · funciona sem internet
 
-**Novo na 1.18.0:** a aba **Modos** refeita — 35 dos 71 modos começam com a
-bancada vazia e os instrumentos numa prateleira, as montagens dos roteiros
-viram referência para comparar com a sua, e os cabos das montagens prontas
-passam pelos corredores entre os aparelhos — [o que mudou](../../releases/tag/v1.18.0).
+**Novo na 1.19.0:** as montagens prontas passam a ser as figuras das
+apostilas, nos sete experimentos — cada instrumento no borne e no lugar em que
+o desenho o põe, com as cores do desenho, e nenhum cabo por cima de visor ou
+mostrador —, e a mesa montada à mão se arruma como a figura com um botão —
+[o que mudou](../../releases/tag/v1.19.0).
 
 ---
 
@@ -31,15 +32,22 @@ Foi feito por um aluno da disciplina, para a turma da disciplina.
 traseira de outro plugue, que é como se faz um nó de três na bancada de
 verdade. Escolha a cor do fio, a potência de cada lâmpada, a posição de cada
 chave. Nada é "aproximadamente": o que não pode ser ligado não liga, e o que
-pode dá exatamente o que daria na mesa.
+pode dá exatamente o que daria na mesa. Passe o mouse num borne e tudo o que
+está no mesmo nó elétrico acende junto; e «Arrumar a mesa como a figura», embaixo
+do seletor, põe a sua montagem na disposição das prontas, com os mesmos cabos.
 
-**Ou partir da figura pronta.** São **21 montagens** dos roteiros, armadas
-cabo por cabo como o desenho manda — estrela, delta, equilibrado,
+**Ou partir da figura pronta.** São **33 montagens** dos roteiros no seletor,
+armadas cabo por cabo como o desenho manda — estrela, delta, equilibrado,
 desequilibrado, neutro aterrado, correção de fator de potência, os
 transformadores. Serve para estudar a figura e serve para conferir a sua
-própria montagem contra ela. Nas dos Experimentos 3 e 4, os aparelhos ficam na
-ordem de leitura da figura, sem um cobrir o outro, e os cabos passam pelos vãos
-entre eles em vez de por cima de visor, mostrador ou bocal.
+própria montagem contra ela. Cada instrumento fica no borne e no lugar em que a
+figura o põe: os amperímetros de linha dos Experimentos 3 e 4 um embaixo do
+outro, o T1 sobre o T2 no paralelismo do Experimento 6, o voltímetro sobre a
+primeira lâmpada na Figura 2 do Experimento 1. Nenhum borne de instrumento
+vira emenda — a linha se abre em ramos na carga, como na bancada —, e nenhum
+cabo passa por cima de visor, mostrador, bocal ou de outro aparelho.
+
+![A Figura 3 do Experimento 6 — dois transformadores em paralelo —, com o T1 sobre o T2 e o A1 sobre o A2, cada amperímetro na linha do seu transformador, como o desenho](img/transformadores.png)
 
 **Medir.** Os multímetros são ET-1110B com as faixas do manual: a leitura sai
 com a resolução da faixa, mostra `OL` quando estoura e tem a incerteza
@@ -152,7 +160,7 @@ Vá em **[Releases](../../releases/latest)** e pegue um dos dois:
 | `SimuladorLABSEP-X.Y.Z-portatil.zip` | roda sem instalar — descompacte e abra o `.exe` |
 
 A instalação é na pasta do usuário: **não pede administrador** e não mexe no
-sistema. São cerca de 96 MB em disco. Instalar por cima de uma versão anterior
+sistema. São cerca de 95 MB em disco. Instalar por cima de uma versão anterior
 preserva ajustes, montagens salvas e calibração.
 
 O programa **não precisa de internet** para nada do que faz — a única coisa que
