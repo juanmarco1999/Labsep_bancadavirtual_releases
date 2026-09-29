@@ -9,12 +9,13 @@ os cabos você pluga um a um, como faz na aula.
 **[⬇ Baixar a última versão](../../releases/latest)** · Windows 64 bits · não
 pede administrador · funciona sem internet
 
-**Novo na 1.19.2:** o que cada amperímetro mede sai da ligação, e não do número
-do visor. No delta desequilibrado do Exp 4, uma lâmpada só do ramo VW carrega a
-mesma corrente que o ramo UV inteiro, e o «Analisar montagem» não confunde mais
-uma com o outro; o «Arrumar a mesa» põe cada amperímetro de linha na linha dele;
-e os wattímetros da Figura 2 ficam no borne de 1 A, como a apostila manda — o W1
-marca os mesmos 210,0 W da Tabela 4. [O que mudou](../../releases/tag/v1.19.2).
+**Novo na 1.19.3:** passar o mouse num borne de um multímetro que acabou de
+chegar à mesa não abre mais o aviso de falha, e o desfazer (Ctrl+Z) — e o abrir
+de uma montagem salva — devolve cada multímetro com o número que tinha, sem
+parar no meio. [O que mudou](../../releases/tag/v1.19.3). Desde a 1.19.2, o que
+cada amperímetro mede sai da ligação, e não do número do visor, e os wattímetros
+da Figura 2 do Exp 4 ficam no borne de 1 A, como a apostila manda —
+[o que mudou na 1.19.2](../../releases/tag/v1.19.2).
 
 ---
 
