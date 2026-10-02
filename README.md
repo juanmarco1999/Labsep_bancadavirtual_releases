@@ -9,13 +9,15 @@ os cabos você pluga um a um, como faz na aula.
 **[⬇ Baixar a última versão](../../releases/latest)** · Windows 64 bits · não
 pede administrador · funciona sem internet
 
-**Novo na 1.19.3:** passar o mouse num borne de um multímetro que acabou de
-chegar à mesa não abre mais o aviso de falha, e o desfazer (Ctrl+Z) — e o abrir
-de uma montagem salva — devolve cada multímetro com o número que tinha, sem
-parar no meio. [O que mudou](../../releases/tag/v1.19.3). Desde a 1.19.2, o que
-cada amperímetro mede sai da ligação, e não do número do visor, e os wattímetros
-da Figura 2 do Exp 4 ficam no borne de 1 A, como a apostila manda —
-[o que mudou na 1.19.2](../../releases/tag/v1.19.2).
+**Novo na 1.19.4:** as montagens prontas do Experimento 6 ficaram mais fiéis
+às figuras — no paralelismo (Figura 3), o V1, o A, o V e o reostato na linha
+do T2, como o desenho; no método CA (Figura 2), o V3 com os dois fios pretos;
+e o jumper do próprio transformador, no autotransformador e na Figura 2,
+dando a volta por fora em vez de cortar o núcleo. A fiação e as leituras são
+as mesmas. [O que mudou](../../releases/tag/v1.19.4). Na 1.19.3, o aviso de
+falha ao passar o mouse num multímetro recém-chegado e o desfazer que trocava
+o número dos multímetros foram corrigidos —
+[o que mudou na 1.19.3](../../releases/tag/v1.19.3).
 
 ---
 
@@ -51,7 +53,7 @@ primeira lâmpada na Figura 2 do Experimento 1. Nenhum borne de instrumento
 vira emenda — a linha se abre em ramos na carga, como na bancada —, e nenhum
 cabo passa por cima de visor, mostrador, bocal ou de outro aparelho.
 
-![A Figura 3 do Experimento 6 — dois transformadores em paralelo —, com o T1 sobre o T2 e o A1 sobre o A2, cada amperímetro na linha do seu transformador, como o desenho](img/transformadores.png)
+![A Figura 3 do Experimento 6 — dois transformadores em paralelo —, com o T1 sobre o T2 e o A1 sobre o A2, e o V1, o A, o V e o reostato na linha do T2, como o desenho](img/transformadores.png)
 
 **Medir.** Os multímetros são ET-1110B com as faixas do manual: a leitura sai
 com a resolução da faixa, mostra `OL` quando estoura e tem a incerteza
