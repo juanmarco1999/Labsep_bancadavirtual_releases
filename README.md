@@ -9,15 +9,13 @@ os cabos você pluga um a um, como faz na aula.
 **[⬇ Baixar a última versão](../../releases/latest)** · Windows 64 bits · não
 pede administrador · funciona sem internet
 
-**Novo na 1.19.4:** as montagens prontas do Experimento 6 ficaram mais fiéis
-às figuras — no paralelismo (Figura 3), o V1, o A, o V e o reostato na linha
-do T2, como o desenho; no método CA (Figura 2), o V3 com os dois fios pretos;
-e o jumper do próprio transformador, no autotransformador e na Figura 2,
-dando a volta por fora em vez de cortar o núcleo. A fiação e as leituras são
-as mesmas. [O que mudou](../../releases/tag/v1.19.4). Na 1.19.3, o aviso de
-falha ao passar o mouse num multímetro recém-chegado e o desfazer que trocava
-o número dos multímetros foram corrigidos —
-[o que mudou na 1.19.3](../../releases/tag/v1.19.3).
+**Novo na 1.20.0:** os aparelhos dos Experimentos 5 e 6 são os da bancada,
+com as fotos tiradas lá — o wattímetro digital Instrutherm WD-960 (visor e
+botões como no manual, 1 W de resolução e a exatidão do fabricante), o
+transformador TELTRAN 24 VA com o tap de 220 V, o reostato ELETELE N125 com o
+cursor na régua e bornes nas duas pontas, e o voltímetro analógico ENGRO
+MOD. 70, cujo ponteiro dá o pulo do golpe indutivo e volta.
+[O que mudou](../../releases/tag/v1.20.0).
 
 ---
 
@@ -53,7 +51,7 @@ primeira lâmpada na Figura 2 do Experimento 1. Nenhum borne de instrumento
 vira emenda — a linha se abre em ramos na carga, como na bancada —, e nenhum
 cabo passa por cima de visor, mostrador, bocal ou de outro aparelho.
 
-![A Figura 3 do Experimento 6 — dois transformadores em paralelo —, com o T1 sobre o T2 e o A1 sobre o A2, e o V1, o A, o V e o reostato na linha do T2, como o desenho](img/transformadores.png)
+![A Figura 5 do Experimento 5 — regulação a plena carga —, com os aparelhos da bancada: o wattímetro digital WD-960, o transformador TELTRAN e o reostato ELETELE](img/transformadores.png)
 
 **Medir.** Os multímetros são ET-1110B com as faixas do manual: a leitura sai
 com a resolução da faixa, mostra `OL` quando estoura e tem a incerteza
