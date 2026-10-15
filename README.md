@@ -9,11 +9,14 @@ os cabos você pluga um a um, como faz na aula.
 **[⬇ Baixar a última versão](../../releases/latest)** · Windows 64 bits · não
 pede administrador · funciona sem internet
 
-**Novo na 1.20.1:** o transformador perde tensão com carga como o da bancada
-— a resistência série saiu de uma regulação medida no laboratório (34,5 % a
-plena carga) —, e o reostato ELETELE N125 diz que a ligação dos quatro bornes
-ainda não foi conferida, com as quatro medições que decidem isso no roteiro.
-[O que mudou](../../releases/tag/v1.20.1). Desde a 1.20.0, os aparelhos dos
+**Novo na 1.20.2:** o reostato da bancada é o ELETELE **N12S** — a foto de
+perto da placa corrigiu o «N125» das versões anteriores —, a ponta de longe
+dele ganhou o porta-fusível que a foto mostra, e o roteiro «O que medir na
+bancada» diz como ler o cartucho e achar com qual borne ele está em série.
+[O que mudou](../../releases/tag/v1.20.2). Na 1.20.1, o transformador passou a
+perder tensão com carga como o da bancada, com a resistência série tirada de
+uma regulação medida no laboratório (34,5 % a plena carga) —
+[o que mudou na 1.20.1](../../releases/tag/v1.20.1). Desde a 1.20.0, os aparelhos dos
 Experimentos 5 e 6 são os da bancada, com as fotos tiradas lá — o wattímetro
 digital WD-960, o transformador TELTRAN, o reostato ELETELE e o voltímetro
 analógico ENGRO MOD. 70 — [o que mudou na 1.20.0](../../releases/tag/v1.20.0).
