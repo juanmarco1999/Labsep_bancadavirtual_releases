@@ -9,14 +9,21 @@ os cabos você pluga um a um, como faz na aula.
 **[⬇ Baixar a última versão](../../releases/latest)** · Windows 64 bits · não
 pede administrador · funciona sem internet
 
-**Novo na 1.20.2:** o reostato da bancada é o ELETELE **N12S** — a foto de
-perto da placa corrigiu o «N125» das versões anteriores —, a ponta de longe
-dele ganhou o porta-fusível que a foto mostra, e o roteiro «O que medir na
-bancada» diz como ler o cartucho e achar com qual borne ele está em série.
-[O que mudou](../../releases/tag/v1.20.2). Na 1.20.1, o transformador passou a
-perder tensão com carga como o da bancada, com a resistência série tirada de
-uma regulação medida no laboratório (34,5 % a plena carga) —
-[o que mudou na 1.20.1](../../releases/tag/v1.20.1). Desde a 1.20.0, os aparelhos dos
+**Novo na 1.21.0:** o teste de polaridade pelo golpe indutivo se faz com a
+mão. O terminal que a apostila manda deixar em aberto é uma **ponta de
+toque**: segure o clique nela para fechar o circuito e solte para abrir. O
+ponteiro do voltímetro analógico sobe e volta ao fechar, desce e volta ao
+abrir — com o núcleo saturando e guardando remanência, como o de verdade —, e o
+painel diz que marcação esse movimento dá. O ohmímetro agora separa a AT
+(≈ 66 Ω) da BT (≈ 0,8 Ω); o painel mostra a **fração de carga** na
+regulação; e ligar o ensaio de curto com o varivolt fora do zero, ou a
+regulação com o reostato fora do máximo, dá aviso. O guia ganhou o caminho
+inteiro do transformador, na ordem — qual lado é qual, a polaridade pelos dois
+métodos, cada ensaio com o seu lado, a fração de carga, as ligações e os
+cuidados, cada um com a conta que o justifica.
+[O que mudou](../../releases/tag/v1.21.0). Na 1.20.2, o reostato passou a se
+chamar ELETELE **N12S**, como diz a placa —
+[o que mudou na 1.20.2](../../releases/tag/v1.20.2). Desde a 1.20.0, os aparelhos dos
 Experimentos 5 e 6 são os da bancada, com as fotos tiradas lá — o wattímetro
 digital WD-960, o transformador TELTRAN, o reostato ELETELE e o voltímetro
 analógico ENGRO MOD. 70 — [o que mudou na 1.20.0](../../releases/tag/v1.20.0).
@@ -66,7 +73,9 @@ importa: no de 5 A o multiplicador é 5 e a leitura anda de 12,5 em 12,5 W, e as
 montagens prontas usam o que a apostila manda, a menor escala que aguente a
 corrente da bobina. E a chave manda no que
 o visor mostra: em V⎓ numa bancada CA ele marca zero — a média de uma senoide
-—, e em CC a ponta trocada lê negativo.
+—, e em CC a ponta trocada lê negativo. O voltímetro analógico ENGRO MOD. 70
+tem ponteiro com inércia e batentes, e é nele que se vê o golpe indutivo: o
+pulo ao fechar e o pulo contrário ao abrir.
 
 **Descobrir onde o instrumento entra.** Botão direito num cabo e o programa diz
 qual corrente passa ali com o nome da coluna da tabela: *a corrente de linha da
